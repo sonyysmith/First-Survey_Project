@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+<h1 id="title" class="heading1">Sony's Survey Form</h1>
+<p id="description" class="p1">Please Fill Out the Survey below</p>
+<form id="survey-form">
+  <div class="input-wrapper"> 
+  <fieldset>
+    <label for="name-label" id="name-label">Name </label>
+    <input id="name" type="text" placeholder="Enter your name" required/>
+    <label for="email-label" id="email-label">Email </label>
+    <input id="email" type="email" placeholder="Enter your email" required/></label>
+    <label for="number-label" id="number-label":>Name </label>
+    <input id="number" type="number" placeholder="enter your age" min="13" max="150" required></label>
+    </fieldset>
+  </div>
+    <fieldset>
+      <label for="favorite animals">What is your favorite animal?
+        <select id="dropdown" name="select">
+          <option value="">(Select One)</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="Monkey">Monkey</option>
+          </select>
+          </label>
+      </fieldset>
+      <fieldset>
+        <label for="Yes"> <input id="yes" value="animal" name="animal" type="radio" class="inline" />I have more than 1 pet</label>
+        <label for="No"> <input id="no" name="animal" value="animal" type="radio" class="inline" />I do not have a pet</label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">What Animals do you have?
+          <label for="dog"><input type="checkbox" value="Dog" class="inline"/>Dog</label>
+          <label for="cat"><input type="checkbox" value="cat" class="inline"/>Cat</label>
+          <label for="Turtle"><input type="checkbox"  value="Turtle" class="inline"/>Turtle</label>
+          <label for="none"><input type="checkbox" value="None" class="inline"/>None :( </label>
+
+
+
+        </fieldset>
+        <fieldset>
+          <label for="feedback">Feedback</label>
+          <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback here"></textarea>
+         </fieldset>
+         <fieldset>
+          <button id="submit" type="submit" name="submit" class="submit">Submit</button>
+         </fieldset>
+         </form>
+         </div>
+         </body>
+         </html>
